@@ -1,0 +1,19 @@
+{
+    "name": "esbuild-starter",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev-esm": "npx ts-node-esm ./config.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {},
+    "devDependencies": {
+        "esbuild": "^0.24.0",
+        "@swc/core": "^1.7.36",
+        "ts-node": "^10.9.2"
+    }
+}
